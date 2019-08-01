@@ -15,9 +15,7 @@ namespace SnackStore.Core.Models
         public string User { get; set; }
         public string Password { get; set; }
         public Role Role { get; set; }
-        public ICollection<ProductLike> ProductLikes { get; set; }
-
-       
+        public ICollection<ProductLike> ProductLikes { get; set; }       
     }
 
     public enum Role
