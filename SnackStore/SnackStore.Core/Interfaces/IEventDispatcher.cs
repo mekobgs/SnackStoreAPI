@@ -7,6 +7,6 @@ namespace SnackStore.Core.Interfaces
 {
     public interface IEventDispatcher
     {
-        Task Dispatch<T>(T eventToDispatch);
+        Task Dispatch<T>(T eventToDispatch) where T : IDomainEvent;
     }
 }

@@ -7,7 +7,7 @@ namespace SnackStore.Core.Seed
 {
     public class SeedProduct
     {
-        public static List<Product> CreateDumpData()
+        public static List<Product> SeedData()
         {
             return new List<Product>
             {

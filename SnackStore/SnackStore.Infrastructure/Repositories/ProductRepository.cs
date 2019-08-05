@@ -36,7 +36,7 @@ namespace SnackStore.Infrastructure.Repositories
 
         public async Task<Product> GetById(int id)
         {
-            return await FindByExpression(p => p.Id == id).Include(a => a.Likes).FirstOrDefaultAsync();
+            return await FindByExpression(p => p.Id == id).Include(a => a.ProductLikes).FirstOrDefaultAsync();
         }
 
         public async Task<Product> GetByName(string name)
