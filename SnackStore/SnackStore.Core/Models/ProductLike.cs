@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SnackStore.Core.Models
 {
-    public class ProductLike
+    public class ProductLike: Entity
     {
         [Key]
         public int ProductId { get; set; }

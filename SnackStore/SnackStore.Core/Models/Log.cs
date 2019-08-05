@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SnackStore.Core.Models
 {
-    public class Log
+    public class Log: Entity
     {
     }
 }

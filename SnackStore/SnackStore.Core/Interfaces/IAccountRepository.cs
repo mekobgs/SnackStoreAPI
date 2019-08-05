@@ -9,7 +9,7 @@ namespace SnackStore.Core.Interfaces
     public interface IAccountRepository: IRepository<Account>
     {
         Task<Account> FindByUserName(string user);
-        Task<Account> FinbByCredentials(string user, string password);
+        Task<Account> FindByCredentials(string user, string password);
         Task Register(Account account);
     }
 }

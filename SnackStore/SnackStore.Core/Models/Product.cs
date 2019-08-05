@@ -6,7 +6,7 @@ using System.Text;
 
 namespace SnackStore.Core.Models
 {
-    public class Product
+    public class Product: Entity
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

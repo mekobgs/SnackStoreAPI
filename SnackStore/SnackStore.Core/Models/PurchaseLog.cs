@@ -6,7 +6,7 @@ using System.Text;
 
 namespace SnackStore.Core.Models
 {
-    public class PurchaseLog
+    public class PurchaseLog: Log
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
