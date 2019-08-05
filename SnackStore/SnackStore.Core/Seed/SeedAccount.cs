@@ -14,14 +14,14 @@ namespace SnackStore.Core.Seed
             {
                 new Account()
                 {
-                    User = "admin01",
-                    Password = "admin01".ToSha256(),
+                    User = "admin",
+                    Password = "admin".ToSha256(),
                     Role = Role.Admin
                 },
                 new Account()
                 {
-                    User = "user02",
-                    Password = "user02".ToSha256(),
+                    User = "guest",
+                    Password = "guest".ToSha256(),
                     Role = Role.Guest
                 }
             };
